@@ -3,7 +3,7 @@ from pico2d import *
 import Opening
 
 
-name = "StartState"
+name = "Start_State"
 image = None
 logo_time = 0.0
 
@@ -11,7 +11,8 @@ logo_time = 0.0
 def enter():
     global image
     open_canvas()
-    image = load_image('kpu_credit.png')
+    image = load_image('Wait.png')
+
     pass
 
 
@@ -26,10 +27,9 @@ def exit():
 def update(frame_time):
     global logo_time
 
-    if(logo_time > 2.5):
+    if(logo_time > 1.5):
         logo_time = 0
-        #game_framework.quit()
-        game_framework.push_state(title_state)
+        game_framework.push_state(Opening)
     delay(0.01)
     logo_time += 0.01
     pass

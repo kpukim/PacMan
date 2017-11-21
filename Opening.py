@@ -1,8 +1,8 @@
 import game_framework
 from pico2d import *
 
+import Main
 
-import collision
 
 name = "Opening"
 image = None
@@ -28,7 +28,7 @@ def handle_events(frame_time):
             if(event.type, event.key) == (SDL_KEYDOWN, SDLK_ESCAPE):
                 game_framework.quit()
             elif(event.type, event.key) == (SDL_KEYDOWN, SDLK_SPACE):
-                game_framework.push_state(collision)
+                game_framework.push_state(Main)
     pass
 
 
