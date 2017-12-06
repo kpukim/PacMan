@@ -28,7 +28,7 @@ class Character:
         if Character.image == None:
             Character.image = load_image('tt.png')
 
-
+#pass
     def update(self, frame_time):
         self.frame = (self.frame + 1) % 5
         if self.state == self.RIGHT_RUN:
