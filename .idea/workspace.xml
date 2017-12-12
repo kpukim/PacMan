@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9e11b0e-e17f-4aef-8b7e-644020e36f29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Main2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ring1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ring2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ring3.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ring4.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ring5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ring6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SecondMap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Money.png" afterPath="$PROJECT_DIR$/Money.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tt.png" afterPath="$PROJECT_DIR$/tt.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Enemy1.py" afterPath="$PROJECT_DIR$/Enemy1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Enemy2.py" afterPath="$PROJECT_DIR$/Enemy2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Enemy3.py" afterPath="$PROJECT_DIR$/Enemy3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mygame.py" afterPath="$PROJECT_DIR$/Mygame.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Opening.py" afterPath="$PROJECT_DIR$/Opening.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PacMan.py" afterPath="$PROJECT_DIR$/PacMan.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ring.py" afterPath="$PROJECT_DIR$/Ring.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Start_state.py" afterPath="$PROJECT_DIR$/Start_state.py" />
-    </list>
+    <list default="true" id="b9e11b0e-e17f-4aef-8b7e-644020e36f29" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,16 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Enemy1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Enemy1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PacMan.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PacMan.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PacMan.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
@@ -69,6 +38,16 @@
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2012180053.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2012180053.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -331,7 +310,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PacMan/title_state.py" />
     <entry file="file://$PROJECT_DIR$/PacMan/PacMan.png" />
     <entry file="file://$PROJECT_DIR$/PacMan/Opening.png" />
     <entry file="file://$PROJECT_DIR$/PacMan/Collision.py" />
@@ -606,6 +584,14 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2012180053.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
