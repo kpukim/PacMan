@@ -3,9 +3,9 @@ import random
 from pico2d import *
 
 
-class ring:
+class ring1:
     def __init__(self):
-        self.x, self.y = 330, 300
+        self.x, self.y = 460, 300
         self.image = load_image('Money.png')
 
     def draw(self):
@@ -20,7 +20,4 @@ class ring:
 
     def get_bb(self):
         return self.x - 15, self.y - 15, self.x + 15, self.y + 15
-
-
-
 

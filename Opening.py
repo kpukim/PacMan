@@ -2,6 +2,7 @@ import game_framework
 from pico2d import *
 
 import Main
+import Main2
 
 
 name = "Opening"

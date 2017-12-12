@@ -19,27 +19,36 @@ class Character:
     LEFT_RUN, RIGHT_RUN, LEFT_STAND, RIGHT_STAND, UP_RUN, DOWN_RUN, UP_STAND, DOWN_STAND = 0, 1, 2, 3, 4, 5, 6, 7
 
     def __init__(self):
-        self.x, self.y = 30,300
+        self.x, self.y = 30,320
         self.frame = 0
         self.life_time = 0.0
         self.total_frames = 0.0
         self.dir = 0
         self.state = self.RIGHT_STAND
         if Character.image == None:
-            Character.image = load_image('tt.png')
+            Character.image = load_image('right.png')
+
 
 #pass
     def update(self, frame_time):
         self.frame = (self.frame + 1) % 5
         if self.state == self.RIGHT_RUN:
-            self.x = min(800, self.x + 1)
+            self.x = min(800, self.x + 1.8)
         if self.state == self.LEFT_RUN:
-            self.x = max(0, self.x - 1)
+            self.x = max(0, self.x - 1.8)
         if self.state == self.UP_RUN:
-            self.y = min(800,self.y + 1)
+            self.y = min(800,self.y + 1.8)
         if self.state == self.DOWN_RUN:
-            self.y = max(0, self.y - 1)
+            self.y = max(0, self.y - 1.8)
 
+        if self.state == self.RIGHT_RUN:
+            Character.image = load_image('right.png')
+        if self.state == self.DOWN_RUN:
+            Character.image = load_image('DownPacMan.png')
+        if self.state == self.UP_RUN:
+            Character.image = load_image('up.png')
+        if self.state == self.LEFT_RUN:
+            Character.image = load_image('left.png')
 
     def draw(self):
         self.image.draw(self.x, self.y)

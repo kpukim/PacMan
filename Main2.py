@@ -7,11 +7,10 @@ from pico2d import *
 import game_framework
 import Opening
 import Pause
-import Main2
-name = "Main"
+name = "Main2"
 
 from PacMan import Character
-from Map import FirstMap
+from SecondMap import secondmap
 from Ring import ring
 from Ring1 import ring1
 from Ring2 import ring2
@@ -27,7 +26,6 @@ from Enemy3 import TEnemy
 
 
 PacMan = None
-Map = None
 SecondMap = None
 Ring = None
 Ring1 = None
@@ -35,11 +33,11 @@ Enemy1 = None
 
 
 def create_world():
-    global Coin, Coin1, Coin2, Coin3, Coin4, Coin5, Coin6,PacMan, Map, Ring , Enemy1, Enemy2, Enemy3, SecondMap, Ring1
+    global Coin, Coin1, Coin2, Coin3, Coin4, Coin5, Coin6,PacMan, SecondMap, Ring , Enemy1, Enemy2, Enemy3, Ring1
 
 
     PacMan = Character()
-    Map = FirstMap()
+    SecondMap = secondmap()
 
     Coin =  [ring() for i in range(1)]
     Coin1 = [ring1() for i in range(1)]
@@ -84,8 +82,7 @@ def handle_events(frame_time):
         if (event.key == (SDLK_p)):
             game_framework.push_state(Pause)
 #//////////////////////////////////////////////////////////////////////////
-        if(event.type, event.key) == (SDL_KEYDOWN, SDLK_SPACE):
-            game_framework.push_state(Main2)
+
 
 def collide(a, b):
     left_a, bottom_a, right_a, top_a = a.get_bb()
@@ -133,7 +130,7 @@ def update(frame_time):
             Coin6.remove(coin6)
 
 def pausedraw():
-    Map.draw()
+    SecondMap.draw()
     PacMan.draw()
     Enemy1.draw()
     Enemy2.draw()
@@ -141,28 +138,10 @@ def pausedraw():
 
 def draw(frame_time):
     clear_canvas()
-    Map.draw()
+    SecondMap.draw()
     PacMan.draw()
 
 
-    #Coin
-    for coin in Coin:
-        coin.draw()
-    for coin1 in Coin1:
-        coin1.draw()
-    for coin2 in Coin2:
-        coin2.draw()
-    for coin3 in Coin3:
-        coin3.draw()
-    for coin4 in Coin4:
-        coin4.draw()
-    for coin5 in Coin5:
-        coin5.draw()
-    for coin6 in Coin6:
-        coin6.draw()
 
-    Enemy1.draw()
-    Enemy2.draw()
-    Enemy3.draw()
     update_canvas()
 
